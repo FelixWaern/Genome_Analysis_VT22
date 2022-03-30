@@ -1,0 +1,7 @@
+# Commmands for version control
+
+git add --all
+git commit -m "message"
+git push origin main
+
+git pull origin main

@@ -4,8 +4,7 @@
 #Connecting to a working node
 # Remove the reservation thing to get ask for allocation after hours
 # t = Time, n= cores
-$ salloc -A uppmax2022-2-5 -M snowy -p core -n 2 -t 00:00:00
---reservation=<code>
+$ salloc -A uppmax2022-2-5 -M snowy -p core -n 2 -t 00:00:00 --reservation=<code>
 
 
 # Code from before sending batch
