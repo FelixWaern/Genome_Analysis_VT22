@@ -1,0 +1,54 @@
+# This file contains sample code for certain common actions
+
+
+#Connecting to a working node
+# Remove the reservation thing to get ask for allocation after hours
+# t = Time, n= cores
+$ salloc -A uppmax2022-2-5 -M snowy -p core -n 2 -t 00:00:00
+--reservation=<code>
+
+
+# Code from before sending batch
+#! /bin/bash -l
+#SBATCH -A uppmax2022-2-5 -M snowy
+#SBATCH -p core
+#SBATCH -n 2
+#SBATCH -t 00:00:00
+#SBATCH -J job_name
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user felix.wae@gmail.com
+
+# Load modules
+module load bioinfo-tools
+moduel load samtools
+
+
+# Commands
+
+
+
+#To send the SBATCH script
+sbatch sbatch_script.sh
+
+#To se status and queue
+squeue -M snowy -u fewa6597
+jobinfo -M snowy -u fewa6597
+
+
+# To transfer a local file to a remote computer
+rsync -P file user@machine:/destination/path/
+
+#To transfer a file in a remote computer to our local machine
+rsync -P user@machine:file /destination/path/
+
+#Setting up soft link
+cd /home/your_user_name/
+ln -s
+/proj/genomeanalysis2022/Genome_Analysis/Name_of_your_paper/raw_data/fil
+e ./raw_data/
+
+
+# Go to like the temoporary folder
+cd $SNIC_TMP
+
+
