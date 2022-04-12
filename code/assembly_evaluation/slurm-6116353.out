@@ -1,0 +1,109 @@
+/var/spool/slurmd/job6116353/slurm_script: line 13: moduel: command not found
+/sw/apps/bioinfo/quast/5.0.2/rackham/bin/quast.py -R /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/reference/OBMB01.fasta /home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/canu/assembled_genome.contigs.fasta
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.59.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2022-04-08 14:01:01
+
+Logging to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/reference/OBMB01.fasta ==> OBMB01
+
+Contigs:
+  Pre-processing...
+  /home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/canu/assembled_genome.contigs.fasta ==> assembled_genome.contigs
+
+2022-04-08 14:01:05
+Running Basic statistics processor...
+  Reference genome:
+    OBMB01.fasta, length = 2610531, num fragments = 2, GC % = 54.14
+  Contig files: 
+    assembled_genome.contigs
+  Calculating N50 and L50...
+    assembled_genome.contigs, N50 = 2566589, L50 = 1, Total length = 2655545, GC % = 54.04, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/basic_stats/GC_content_plot.pdf
+  Drawing assembled_genome.contigs GC content plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/basic_stats/assembled_genome.contigs_GC_content_plot.pdf
+Done.
+
+2022-04-08 14:01:07
+Running Contig analyzer...
+  assembled_genome.contigs
+  Logging to files /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/contigs_reports/contigs_report_assembled_genome-contigs.stdout and contigs_report_assembled_genome-contigs.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2022-04-08 14:01:10
+Running NA-NGA calculation...
+  assembled_genome.contigs, Largest alignment = 2232778, NA50 = 2232778, NGA50 = 2232778, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/aligned_stats/NGAx_plot.pdf
+Done.
+
+2022-04-08 14:01:11
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  assembled_genome.contigs
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-04-08 14:01:12
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-04-08 14:01:14
+RESULTS:
+  Text versions of total report are saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/report.html
+  PDF version (tables and plots) is saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/report.pdf
+  Icarus (contig browser) is saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/icarus.html
+  Log is saved to /domus/h1/fewa6597/genome_analysis/Genome_Analysis_VT22/code/assembly_evaluation/quast_results/results_2022_04_08_14_01_01/quast.log
+
+Finished: 2022-04-08 14:01:14
+Elapsed time: 0:00:12.682816
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
