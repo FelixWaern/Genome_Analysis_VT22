@@ -1,0 +1,66 @@
+	trimmomatic 0.36 loaded, see 'module help trimmomatic/0.36' for more information.
+TrimmomaticPE: Started with arguments:
+ -phred33 /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036629_1.fastq.gz /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036629_2.fastq.gz ER2036629_fw_paired.fq.gz ER2036629_fw_unpaired.fq.gz ER2036629_rev_paired.fq.gz ER2036629_rev_unpaired.fq.gz ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/snowy/adapters/TruSeq2-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:40 MAXINFO:40:0.5
+Multiple cores found: Using 2 threads
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 24278349 Both Surviving: 22767297 (93.78%) Forward Only Surviving: 1345956 (5.54%) Reverse Only Surviving: 104089 (0.43%) Dropped: 61007 (0.25%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036630_1.fastq.gz /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036630_2.fastq.gz ER2036630_fw_paired.fq.gz ER2036630_fw_unpaired.fq.gz ER2036630_rev_paired.fq.gz ER2036630_rev_unpaired.fq.gz ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/snowy/adapters/TruSeq2-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:40 MAXINFO:40:0.5
+Multiple cores found: Using 2 threads
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 25190273 Both Surviving: 23377664 (92.80%) Forward Only Surviving: 1682619 (6.68%) Reverse Only Surviving: 56592 (0.22%) Dropped: 73398 (0.29%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036631_1.fastq.gz /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036631_2.fastq.gz ER2036631_fw_paired.fq.gz ER2036631_fw_unpaired.fq.gz ER2036631_rev_paired.fq.gz ER2036631_rev_unpaired.fq.gz ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/snowy/adapters/TruSeq2-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:40 MAXINFO:40:0.5
+Multiple cores found: Using 2 threads
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 20554133 Both Surviving: 18084513 (87.98%) Forward Only Surviving: 2251273 (10.95%) Reverse Only Surviving: 109297 (0.53%) Dropped: 109050 (0.53%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036632_1.fastq.gz /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036632_2.fastq.gz ER2036632_fw_paired.fq.gz ER2036632_fw_unpaired.fq.gz ER2036632_rev_paired.fq.gz ER2036632_rev_unpaired.fq.gz ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/snowy/adapters/TruSeq2-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:40 MAXINFO:40:0.5
+Multiple cores found: Using 2 threads
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 27121727 Both Surviving: 23112791 (85.22%) Forward Only Surviving: 3594749 (13.25%) Reverse Only Surviving: 119280 (0.44%) Dropped: 294907 (1.09%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036633_1.fastq.gz /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/raw_data/RNA_raw_data/ERR2036633_2.fastq.gz ER2036633_fw_paired.fq.gz ER2036633_fw_unpaired.fq.gz ER2036633_rev_paired.fq.gz ER2036633_rev_unpaired.fq.gz ILLUMINACLIP:/sw/apps/bioinfo/trimmomatic/0.36/snowy/adapters/TruSeq2-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:40 MAXINFO:40:0.5
+Multiple cores found: Using 2 threads
+Using PrefixPair: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG'
+Using Long Clipping Sequence: 'TTTTTTTTTTAATGATACGGCGACCACCGAGATCTACAC'
+Using Long Clipping Sequence: 'TTTTTTTTTTCAAGCAGAAGACGGCATACGA'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 6 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 24900532 Both Surviving: 23351836 (93.78%) Forward Only Surviving: 1406971 (5.65%) Reverse Only Surviving: 69764 (0.28%) Dropped: 71961 (0.29%)
+TrimmomaticPE: Completed successfully

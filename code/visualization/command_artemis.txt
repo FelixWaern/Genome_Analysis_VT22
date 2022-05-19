@@ -1,0 +1,8 @@
+# Manual for help: https://sanger-pathogens.github.io/Artemis/ACT/act-manual.html#_Toc532220688
+# Other help http://sanger-pathogens.github.io/Artemis/ACT/
+
+
+module load bioinfo-tools
+module load artemis
+
+act /home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/canu/assembled_genome.contigs.fasta /home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/blast/blastn_result.tab /home/fewa6597/genome_analysis/Genome_Analysis_VT22/data/ncbi-genomes-2022-05-11/GCF_000284315.1_ASM28431v1_genomic.fna

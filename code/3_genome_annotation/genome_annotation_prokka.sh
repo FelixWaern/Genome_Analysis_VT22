@@ -10,18 +10,16 @@
 
 # Load modules
 module load bioinfo-tools
-moduel load prokka
+module load prokka
 
  
 # Commands
 # prokka [options] <contigs.fasta>
-prokka \
- --addgenes \
- --species \
- --strain   \
- /home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/canu/assembled_genome.contigs.fasta
+prokka --outdir /home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/prokka --force /home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/canu/*.contigs.fasta
 
 
+# path to results
+#/home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/prokka
 # path to assembly
 #/home/fewa6597/genome_analysis/Genome_Analysis_VT22/results/canu/assembled_genome.contigs.fasta
 
